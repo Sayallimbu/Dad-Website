@@ -1,0 +1,48 @@
+.navmain{
+
+   position: absolute;
+   z-index: +1;
+   width: 100%;
+   justify-content: center;
+   display: flex;
+   top: 20px;
+height: 70px;
+   /* border: 1px solid red; */
+
+  
+}
+.navbar{
+    background-color: rgb(0, 0, 0);
+/* border: 1px solid red; */
+  border-radius: 20px;
+  width: 460px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding: 0px 20px 0px 20px ;
+
+  
+
+}
+.navbar img{
+    height: 45px;
+ 
+}
+.navbarlnk{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbarlnk a{
+color: rgb(134, 131, 131);
+text-decoration: none;
+font-size: 17px;
+
+
+
+}
+#contact{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
