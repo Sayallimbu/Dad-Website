@@ -1,15 +1,11 @@
 .navmain{
+  position: absolute;
 
-   position: absolute;
-   z-index: +1;
-   width: 100%;
-   justify-content: center;
-   display: flex;
-   top: 20px;
-height: 70px;
-   /* border: 1px solid red; */
-
-  
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px 0;
 }
 .navbar{
     background-color: rgb(0, 0, 0);
@@ -20,10 +16,8 @@ height: 70px;
   align-items: center;
   justify-content: space-between;
 padding: 0px 20px 0px 20px ;
-
-  
-
 }
+
 .navbar img{
     height: 45px;
  

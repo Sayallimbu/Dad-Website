@@ -1,6 +1,7 @@
 import React from "react";
 import "./navbar.css";
 import Image from "../../assets/leo-icon.avif";
+import Video from "../../assets/video1.mp4";
 function navbar() {
   return (
     <div className="navmain">
@@ -17,6 +18,7 @@ function navbar() {
           </a>
         </div>
       </div>
+      
     </div>
   );
 }
