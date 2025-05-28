@@ -1,9 +1,12 @@
 import React from 'react'
 import "./work.css"
+import Card from "./workcard"
 function work() {
   return (
    <div className="work">
-    <h1>combining creativity and expertise, we reveal the character of brands that stand oout in their time.</h1>
+   <Card/>
+   <Card/>
+   <Card/>
    </div>
   )
 }

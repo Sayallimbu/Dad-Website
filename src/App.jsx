@@ -10,7 +10,7 @@ function App() {
     <>
     <NavBar/>
     <Hero/>
-    {/* <Work/> */}
+    <Work/>
     </>
   )
 }

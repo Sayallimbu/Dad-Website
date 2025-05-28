@@ -1,37 +1,52 @@
 .navmain{
-  position: absolute;
+  position: fixed;
 
   width: 100%;
   display: flex;
   justify-content: center;
   z-index: 1000;
   padding: 20px 0;
+
 }
 .navbar{
-    background-color: rgb(0, 0, 0);
-/* border: 1px solid red; */
+    background-color: rgb(27, 27, 27);
+
   border-radius: 20px;
-  width: 460px;
+
+    width: 35%;
+  min-width: 400px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-evenly; */
 padding: 0px 20px 0px 20px ;
+height: 65px;
+overflow:hidden ;
+
 }
 
 .navbar img{
     height: 45px;
+    border: 1px solid white;
+    border-radius: 10px
  
 }
 .navbarlnk{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
+  
+    margin-left: 10%;
+
+
+    width: 100%;
+
+  
 }
 .navbarlnk a{
 color: rgb(134, 131, 131);
 text-decoration: none;
-font-size: 17px;
-
+font-size: 15px;
+transition: 300ms ;
 
 
 }
@@ -39,4 +54,19 @@ font-size: 17px;
     background-color: white;
     padding: 10px;
     border-radius: 10px;
+    font-weight: bold;
+    color: black;
 }
+.navbarlnk a:hover{
+  background-color:rgb(63, 62, 62) ;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+  
+}
+#contact:hover{
+  color: rgb(255, 255, 255);
+  background-color: rgb(248, 72, 72);
+  padding: 15px;
+}
+
